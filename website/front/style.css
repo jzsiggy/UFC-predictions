@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.logo {
+  height: 80px;
+  width: 500px;
+  position: absolute;
+  background-image: url('images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 40px;
+}
+
+.winner {
+  position: absolute;
+  height: 80px;
+  width: 200px;
+  margin-left: 80%;
+}
+
+.winner > h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+
+.container {
+  height: 120vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('images/octagon.jpg');
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+}
+
+.blue {
+  background: linear-gradient(to right, #1a2980, #26d0ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.red {
+  background: linear-gradient(to right, #d31027, #ea384d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fighter-info {
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.fighter-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.fighter-info > input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.fighter-info > label {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.submit-btn > p {
+  color: white;
+}
+
+.submit-btn {
+  padding: 30px;
+  background-color: red;
+  border-radius: 20px;
+}
