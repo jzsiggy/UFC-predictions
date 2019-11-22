@@ -7,3 +7,7 @@ You may do this with the commands:
 You will have to serve the flask backend on your machine, as the frontend makes requests to 127.0.0.1:5000
 
 The jupyter notebook does not include the xgboost model, only sklearn models
+
+## Alternatively, You can run pip install -r requirements.txt
+
+from the directory "/website/back" , run the command: '''export FLASK_APP=server.py''' and then '''flask run'''
